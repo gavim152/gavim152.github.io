@@ -1,0 +1,16 @@
+body {
+	background; black
+}
+
+h1 {
+	color; white; 
+	text-align: center;
+	margin-top: 0px;
+	font-family; futura;
+	font-weight: bold;
+	font-size: 70px;
+}
+
+img {
+	position: absolute;
+}
