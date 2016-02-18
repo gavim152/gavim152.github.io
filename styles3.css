@@ -1,0 +1,40 @@
+h1{
+
+	font-size: 180px;
+	color: black;
+	font-family: Helvetica;
+	font-weight: bolder;
+	letter-spacing: 0px;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 0px;
+	float: left;
+	line-height: 145px;
+
+
+}
+
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: red;
+
+}
+
+
+a:link{
+
+	font-size: 180px;
+	color: black;
+	font-family: Helvetica;
+	font-weight: bolder;
+	letter-spacing: 0px;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 0px;
+	float: left;
+	line-height: 145px;
+	text-decoration: none;
