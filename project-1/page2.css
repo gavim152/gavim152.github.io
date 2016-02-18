@@ -1,0 +1,78 @@
+h1 {
+	font-family: helvetica;
+	color: #5D823D;
+	font-size: 36px;
+	margin-left: 600px;
+	margin-top: 10px;
+	position: relative;
+}
+
+h2 {
+	font-family: helvetica;
+	color: #5D823D;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 370px;
+	margin-top: -40px;
+	position: relative;
+
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.container {
+	width: 1400px;
+	height: 760px;
+
+}
+
+.sidebar {
+	width: 228px;
+	height: 780px;
+	background-color: #5D823D;
+	position: absolute;
+	padding-left: 40px;
+	overflow: scroll;
+}
+
+.all-button {
+	background-color: #5D823D;
+	width: 54px;
+	height: 33px;
+	margin-left: 1380px;
+	font-size: 24px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: white;
+	padding-left: 7px;
+	padding-top: 7px;
+}
+
+.save-button {
+	background-color: #5D823D;
+	width:  81px;
+	height: 35px;
+	margin-left: 1350px;
+	font-size: 24px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: white;
+	padding-left: 13px;
+	padding-top: 10px;
+
+
+}
+.drag-image1 {width: 203px; height: 139px; cursor: move;}
+.drag-image2 {width: 159px; height: 158px; margin-top: 4px; margin-left: 0px;cursor: move;}
+.drag-image3 {width: 202px; height: 100px; margin-top: 0px;cursor: move;}
+.drag-image4 {width: 105px; height:  291px; margin-top: 0px;cursor: move;}
+.drag-image5 {width: 250px; height: 158px;position: absolute;margin-top: 0px;cursor: move;}
