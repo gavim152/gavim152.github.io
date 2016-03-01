@@ -1,6 +1,55 @@
-.back-button {
-	width:94px; 
-	height:40px; 
-	color:black;
+.all-button {
+	background-color: red;
+	width: 70px;
+	height: 47px;
+	margin-left: 1330px;
+	margin-top: -720px;
+	font-size: 16px;
+	font-family: helvetica;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 10px;
+	position: fixed;
+	text-decoration: none;
 	
 }
+
+.save-button {
+	background-color: #5D823D;
+	width:  70px;
+	height: 47px;
+	margin-top: -720px;
+	padding-top: 10px;
+	padding-left: 15px;
+	margin-left: 530px;
+	font-size: 16px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: white;
+	position: fixed;
+
+}
+
+
+
+a:link {
+	color: white;
+	text-decoration: none;
+
+}
+	
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+

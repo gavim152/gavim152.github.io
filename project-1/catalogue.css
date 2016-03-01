@@ -1,0 +1,154 @@
+body { background-color: #e3e3e3
+	
+}
+
+.catag {
+	background-image: url("grid4.png");
+	background-color: #e3e3e3;
+	width: 150px;
+	float: center;
+	height: 660px;
+	border: 5px solid black;
+	overflow: scroll;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+ 		
+
+}
+
+.all-button {
+    background-color: green;
+    width: auto;
+    height: 26px;
+    left: 190px;
+    top: 8px;
+    font-size: 24px;
+    font-family: helvetica;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    position: fixed;
+   
+    
+}
+.pel-button {
+    background-color: red;
+    width: 85px;
+    height: 26px;
+    left: 190px;
+    top: 645px;
+    font-size: 24px;
+    font-family: helvetica;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    position: fixed;
+   
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    border: green;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+    border: green;
+}
+
+.img1 {
+  position: relative;
+  left: 500px;
+  top: 20px;
+}
+.image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.text {
+  z-index: 100;
+  position: absolute;
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 200px;
+  font-family: helvetica;
+  top: 315px;
+  border: 5px solid white;
+}
+
+.subtext {
+	z-index: 100;
+  position: absolute;
+  width: 500px;
+  height: 133px;
+  padding: 10px;
+
+  color: white;
+  font-size: 13px;
+line-height: 135%;
+  font-family: helvetica;
+  left: 70px;
+  top: 390px;
+  border: 5px solid white;
+}
+
+.subtext1 {
+  z-index: 100;
+   font-family: helvetica;
+  position: absolute;
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 580px;
+  top: 90px;
+  border: 5px solid white;
+
+}
+
+.text1 {
+  z-index: 100;
+  position: absolute;
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 140px;
+  font-family: helvetica;
+  top: 315px;
+  border: 5px solid white;
+}
+.text2 {
+  z-index: 100;
+  position: absolute;
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 240px;
+  font-family: helvetica;
+  top: 315px;
+  border: 5px solid white;
+}
+.text3 {
+  z-index: 100;
+  position: absolute;
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 200px;
+  font-family: helvetica;
+  top: 315px;
+  border: 5px solid white;
+}

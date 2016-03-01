@@ -6,64 +6,90 @@
     <link rel="shortcut icon" href="" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
      <script src="jquery-ui.js"></script>
+     <script src="bindKey.js"></script>
      <script src="script.js"></script>
   <link rel="stylesheet" href="jquery-ui.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.ui.rotatable/1.0.1/jquery.ui.rotatable.css">
   <script src="//cdn.jsdelivr.net/jquery.ui.rotatable/1.0.1/jquery.ui.rotatable.min.js"></script>
   </head>
+  
+  <body><div class ="sidebar">
+<script type="text/javascript">
+    
+    $(function() {
+    $("#draggable1").draggable({appendTo: 'body',});
+    $("#draggable2").draggable({appendTo: 'body',});
+    $("#draggable3").draggable({appendTo: 'body',});
+    $("#draggable4").draggable({appendTo: 'body',});
+    $("#draggable5").draggable({appendTo: 'body',});
+    $("#draggable6").draggable();
+    $("#draggable7").draggable();
+    $("#draggable8").draggable();
+    $("#draggable9").draggable();
+    $("#draggable10").draggable();
+    $("#draggable11").draggable();
+    $("#draggable12").draggable();
+    $("#draggable13").draggable();
+    $("#draggable14").draggable();
+    $("#draggable15").draggable();
 
-  <body>
-    <div class="container"> 
-      <div class ="sidebar"> <script type="text/javascript">
-$(function() {
-    $("#draggable1").draggable({containment: "container"});
-    $("#draggable2").draggable();
-    $("#draggable3").draggable();
-    $("#draggable4").draggable();
-    $("#draggable5").draggable();
 });
-</script>
+
+  </script>
+</div>  
+     
+<div class="floppy"> <img src="floppy2.png" style="width: 48px; height: 48px; position: fixed;  top: 40px; left: 630px"></div>
+
+<div class="h1"> Elizabeth Street Garden</div>
+
+<div class ="all-button"> <a href="all.html"> ALL</div> 
+
+ <div class="toggle"><a href="page1.html"><img src="toggle2.png" class="toggle-button" style="position:fixed;width: 75px; height: 31px; top:630px; left: 300px;"></a> </div>
+   
+     <div class="canvas__container"> <canvas id="cnvs" class="canvas__canvas"></canvas> <img src="" id="mirror" class="canvas__mirror" /> </div> <a href="#" class="button" id="btn-download" download="my-file-name.png">SAVE</a> </div>
+
 
 
       <div id="draggable1">
-      <img src="garden.png" class="drag-image1" id="draggable1"/>   </div>
-     
+      <img src="garden.png" class="myDrag drag-image1" id="draggable1"/>   </div>
       <div id="draggable2">
-      <img src="garden1.png" class="drag-image2" id="draggable2"/>  </div>
+      <img src="garden1.png" class="myDrag drag-image2" id="draggable2"/>  </div>
       <div id="draggable3">
-      <img src="garden2.png" class="drag-image3" id="draggable3"/>  </div>
+      <img src="garden2.png" class="myDrag drag-image3" id="draggable3"/>  </div>
       <div id="draggable4">
-      <img src="garden3.png" class="drag-image4" id="draggable4"/>  </div>
+      <img src="garden3.png" class="myDrag drag-image4" id="draggable4"/>  </div>
       <div id="draggable5">
-      <img src="garden4.png" class="drag-image5" id="draggable5"/>  </div>
-  </div>
-                            
-                         
-
-
-
-      
-                             
-     <div class ="all-button"> <a href="all.html"> ALL</div>  
-
-    <img src="floppy2.png" style="width: 80px; position: relative; height: 80px; top: 50x; left: 750px">
-
-  <h1>
-    Elizabeth Street Garden 
-  </h1>
-      <img src="garden.jpg" style=" margin-left: 228px">
-      
-
-      <div class ="save-button"> <a href="path_to_file" download="gallery.png">SAVE</a></div> 
-     <a href="page1.html"> <img src="toggle2.png" style=" width: 96px; height: 40px; margin-left: 273px; margin-top: -45px; position:absolute;"> </a>
-       <h2>
-    GALLERY 
-  </h2>
-
+      <img src="garden4.png" class="myDrag drag-image5" id="draggable5"/>  </div>
+      <div id="draggable6">
+      <img src="garden7.png" class="myDrag drag-image6" id="draggable6"/>  </div>
+      <div id="draggable7">
+      <img src="garden6.png" class="myDrag drag-image7" id="draggable7"/>  </div>
+      <div id="draggable8">
+      <img src="garden8.png" class="myDrag drag-image8" id="draggable8"/>  </div>
+      <div id="draggable9">
+      <img src="garden9.png" class="myDrag drag-image9" id="draggable9"/>  </div>
+      <div id="draggable10">
+      <img src="garden10.png" class="myDrag drag-image10" id="draggable10"/>  </div>
+      <div id="draggable11">
+      <img src="garden11.png" class="myDrag drag-image11" id="draggable11"/>  </div>
+      <div id="draggable12">
+      <img src="garden12.png" class="my Drag drag-image12" id="draggable12"/>  </div>
+      <div id="draggable13">
+      <img src="garden13.png" class="myDrag drag-image13" id="draggable13"/>  </div>
+      <div id="draggable14">
+      <img src="garden14.png" class="myDrag drag-image14" id="draggable14"/>  </div>
+      <div id="draggable15">
+      <img src="garden15.png" class="myDrag drag-image15" id="draggable15"/>  </div>
+     
+  
+                        
+ 
+ 
 
     
+ 
+   
 
-</div>
 
       
 

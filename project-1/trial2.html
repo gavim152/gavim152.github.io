@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mariana Gaviria</title>
+    <link href="trial2.css" rel="stylesheet">
+    <link rel="shortcut icon" href="" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script src="jquery-ui.js"></script>
+     <script src="bindKey.js"></script>
+     <script src="script.js"></script>
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.ui.rotatable/1.0.1/jquery.ui.rotatable.css">
+  <script src="//cdn.jsdelivr.net/jquery.ui.rotatable/1.0.1/jquery.ui.rotatable.min.js"></script>
+  </head>
+  
+  <body>
+    <div class="floppy"> <img src="floppy2.png" style="width: 56px; height: 56px;   top: 31px; left: 540px; position:fixed;"></div>
+
+<div class="h1"> Elizabeth Street Gallery</div>
+<div class ="all-button"> <a href="catalogue.html"> ALL</div>
+ <div class="canvas__container"> <canvas id="cnvs" class="canvas__canvas"></canvas> <img src="" id="mirror" class="canvas__mirror" /> </div> <a href="#" class="save-button" id="btn-download" style="border: 5px solid white;" download="my-file-name.png">SAVE</a>
+<div class ="refresh-button"> <a href="javascript:window.location.href=window.location.href"> REFRESH</div>
+
+
+
+
+   <div id="dvSource">
+    <img alt="" src="objectg1.png" style="width=100px;height=100px;" />
+    <img alt="" src="objectg2.png" style="width=100px;height=100px;"/>
+    <img alt="" src="objectg3.png"style="width=100px;height=100px;" />
+    <img alt="" src="objectg4.png" style="width=100px;height=100px;"/>
+    <img alt="" src="objectg5.png" style="width=100px;height=100px;"/>
+    <img alt="" src="garden14.png" style="width=100px;height=100px;"/>
+    <img alt="" src="garden15.png" style="width=100px;height=100px;"/>
+     <img alt="" src="objectg6.png" style="width=100px;height=100px;"/>
+     <img alt="" src="garden6.png" style="width=100px;height=100px;"/>
+      <img alt="" src="garden9.png" style="width=100px;height=100px;"/>
+   
+   
+
+</div>
+<hr />
+<div id="dvDest">
+    Drop here
+</div>
+<div class="toggle"><a href="trial1.html"><img src="toggle2.png" class="toggle-button" style="position:fixed;width: 75px; height: 31px; top:40px; border: 5px solid white; padding: 6px;"></a> </div>
+
+
+<script type="text/javascript">
+$(function () {
+    $("#dvSource img").draggable({
+        revert: "invalid",
+        refreshPositions: true,
+        drag: function (event, ui) {
+            ui.helper.addClass("draggable");
+        },
+        stop: function (event, ui) {
+            ui.helper.removeClass("draggable");
+            var image = this.src.split("/")[this.src.split("/").length - 1];
+            
+        }
+    });
+    $("#dvDest").droppable({
+        drop: function (event, ui) {
+            if ($("#dvDest img").length == 0) {
+                $("#dvDest").html("");
+            }
+            ui.draggable.addClass("dropped");
+            $("#dvDest").append(ui.draggable);
+        }
+    });
+});
+
+var cnvs = document.getElementById('cnvs'),
+    ctx = cnvs.getContext('2d'),
+    mirror = document.getElementById('mirror');
+
+
+cnvs.width = mirror.width = window.innerWidth;
+cnvs.height = mirror.height = window.innerHeight;
+
+var button = document.getElementById('btn-download');
+button.addEventListener('click', function (e) {
+    var dataURL = canvas.toDataURL('image/png');
+    button.href = dataURL;
+    });
+</script>
+  </body>
+  </html>

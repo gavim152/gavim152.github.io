@@ -1,22 +1,23 @@
-h1 {
+html,body {
+	background-image: url("galleryback.png");
+	width: 100%;
+	height: 90%;
+	background-attachment: fixed;
+	
+}
+
+.h1 {
 	font-family: helvetica;
-	color: red;
+	color: white;
 	font-size: 36px;
-	margin-left: 600px;
-	margin-top: 10px;
-	position: relative;
-}
-
-h2 {
-	font-family: helvetica;
-	color: red;
-	font-size: 24px;
 	font-weight: bold;
-	margin-left: 370px;
-	margin-top: -40px;
-	position: relative;
-
+	position: fixed;
+	left:700px;
+	top: 40px;
+	
 }
+
+
 
 a:link {
 	text-decoration: none;
@@ -29,51 +30,93 @@ a:visited {
 	color: white;
 }
 
-.container {
-	width: 1400px;
-	height: 760px;
 
-}
 
 .sidebar {
 	width: 228px;
 	height: 780px;
 	background-color: red;
-	position: absolute;
 	padding-left: 40px;
-	overflow: scroll;
+	position: fixed;
+	overflow: auto;
+
+
 }
 
 .all-button {
 	background-color: red;
 	width: 54px;
 	height: 33px;
-	margin-left: 1380px;
+	left: 1320px;
+	top: 40px;
 	font-size: 24px;
 	font-family: helvetica;
 	font-weight: bold;
 	color: white;
 	padding-left: 7px;
-	padding-top: 7px;
+	padding-top: 5px;
+	position: fixed;
+	
 }
 
-.save-button {
+
+
+.toggle-button {
+		position:fixed;
+		width: 75px; 
+		height: 31px;
+
+	}
+
+
+
+.toggle {
+	 width: 75px; height: 31px; margin-top: 570px; margin-left:300px; position:fixed;
+}
+
+.floppy {
+	width: 54px;
+	height: 54px;
+
+}
+.drag-image1 {width: 203px; height: 139px; cursor: move;}
+.drag-image2 {width: 159px; height: 158px; margin-top: 4px; margin-left: 0px;cursor: move;}
+.drag-image3 {width: 202px; height: 200px; margin-top: 0px;cursor: move;}
+.drag-image4 {width: 105px; height:  291px; margin-top: 0px;cursor: move;}
+.drag-image5 {width: 250px; height: 158px;position: absolute;margin-top: 0px;cursor: move;}
+
+.canvas__container {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}
+.canvas__canvas {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.canvas__mirror {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+
+.button {
 	background-color: red;
-	width:  81px;
-	height: 35px;
-	margin-left: 1350px;
-	font-size: 24px;
-	font-family: helvetica;
-	font-weight: bold;
-	color: white;
-	padding-left: 13px;
-	padding-top: 10px;
-
-
+  width: 71px;
+  height: 33px;
+  top:630px; left:1320px;
+  font-size: 24px;
+  font-family: helvetica;
+  font-weight: bold;
+  color: white;
+  padding-left: 7px;
+  padding-top: 5px;
+  position: fixed;
 }
-.drag-image1 {width: 94px; height: 181px; cursor: move;}
-.drag-image2 {width: 235px; height: 144px; margin-top: 0px; margin-left: 0px;cursor: move;}
-.drag-image3 {width: 111px; height: 222px; margin-top: 0px;cursor: move;}
-.drag-image4 {width: 71px; height:  186px; margin-top: 0px;cursor: move;}
-.drag-image5 {width: 141px; height: 139px;position: absolute;margin-top: 0px;cursor: move;}
+
+
 

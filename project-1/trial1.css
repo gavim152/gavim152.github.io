@@ -1,0 +1,131 @@
+
+body
+{
+    font-family: Helvetica;
+    background-color: green;
+    color: white;
+
+}
+.h1 {
+    font-size: 40px;
+    top: 40px;
+    font-family: Helvetica;
+    color: white;
+    position: fixed;
+    left: 615px;
+    font-weight: bold;
+}
+
+.draggable
+{
+  
+    opacity: 0.6;
+}
+.dropped
+{
+    position: static !important;
+    z-index: 2px;
+}
+#dvDest
+{ background-image: url("gardeny.png");
+    border: 5px solid white;
+    padding: 5px;
+    min-height: 560px;
+    left: 130px;
+    width: 1290px;
+    top: 120px;
+    position: fixed;
+}
+#dvSource {
+    border: 5px solid white;
+    top:120px;
+    height: 560px;
+    width: 100px;
+    background-color: green;
+    position: fixed;
+    overflow: scroll;
+}
+
+.all-button {
+    background-color: green;
+    width: 54px;
+    height: 33px;
+    left: 1360px;
+    top: 40px;
+    font-size: 24px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: white;
+    padding-left: 7px;
+    padding-top: 5px;
+    position: fixed;
+    border: 5px solid white; 
+    
+}
+.save-button {
+    background-color: green;
+    width: 73px;
+    height: 33px;
+    left: 1220px;
+    top: 40px;
+    font-size: 24px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: white;
+    padding-left: 7px;
+    padding-top: 5px;
+    position: fixed;
+   border: 5px solid white; 
+    
+}
+.refresh-button {
+    background-color: green;
+    width: 120px;
+    height: 28px;
+    left: 150px;
+    top: 40px;
+    font-size: 24px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: white;
+    padding-left: 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: fixed;
+   border: 5px solid white; 
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    border: green;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+    border: green;
+}
+
+
+.canvas__container {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+   
+}
+.canvas__canvas {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+}
+.canvas__mirror {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }

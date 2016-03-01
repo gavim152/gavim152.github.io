@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mariana Gaviria</title>
+    <link href="example.css" rel="stylesheet">
+    <link rel="shortcut icon" href="" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.ui.rotatable/1.0.1/jquery.ui.rotatable.css">
+    <script src="//cdn.jsdelivr.net/jquery.ui.rotatable/1.0.1/jquery.ui.rotatable.min.js"></script>
+  </head>
+
+  <body>
+<div class="canvas__container">
+  <canvas id="cnvs" class="canvas__canvas"></canvas>
+  <img src="" id="mirror" class="canvas__mirror" />
+</div>
+ <a href="#" class="button" id="btn-download" download="my-file-name.png">Download</a>
+<script type="text/javascript">
+
+ var cnvs = document.getElementById('cnvs'),
+    ctx = cnvs.getContext('2d'),
+    mirror = document.getElementById('mirror');
+
+
+cnvs.width = mirror.width = window.innerWidth;
+cnvs.height = mirror.height = window.innerHeight;
+
+var button = document.getElementById('btn-download');
+button.addEventListener('click', function (e) {
+    var dataURL = canvas.toDataURL('image/png');
+    button.href = dataURL;
+});
+      </script>
+
+  </body>
+</html>

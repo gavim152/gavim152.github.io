@@ -1,22 +1,46 @@
-h1 {
+
+html,body {
+	background-image: url("gardenback.png");
+	width: 100%;
+	height: 90%;
+	background-attachment: fixed;
+	
+}
+
+.drag-image1 {top:0px;}
+.drag-image2 {top:0px;}
+.drag-image3 {top:0px;}
+.drag-image4 {top:0px;}
+.drag-image5 {top:0px;}
+.drag-image6 {top:0px;}
+.drag-image7 {top:0px;}
+.drag-image8 {top:0px;}
+.drag-image9 {top:0px;}
+.drag-image10 {top:0px;}
+.drag-image11 {top:0px;}
+.drag-image12 {top:0px;}
+.drag-image13 {top:0px;}
+.drag-image14 {top:0px;}
+.drag-image15 {top:0px;}
+
+
+.myDrag { cursor: move;
+			position: relative;
+
+}
+
+.h1 {
 	font-family: helvetica;
-	color: #5D823D;
+	color: white;
 	font-size: 36px;
-	margin-left: 600px;
-	margin-top: 10px;
-	position: relative;
-}
-
-h2 {
-	font-family: helvetica;
-	color: #5D823D;
-	font-size: 24px;
 	font-weight: bold;
-	margin-left: 370px;
-	margin-top: -40px;
-	position: relative;
-
+	position: fixed;
+	left:700px;
+	top: 40px;
+	
 }
+
+
 
 a:link {
 	text-decoration: none;
@@ -29,50 +53,91 @@ a:visited {
 	color: white;
 }
 
-.container {
-	width: 1400px;
-	height: 760px;
 
-}
 
 .sidebar {
 	width: 228px;
 	height: 780px;
-	background-color: #5D823D;
-	position: absolute;
+	background-color: #5d823d;
 	padding-left: 40px;
-	overflow: scroll;
+	top: -2px;
+	position: fixed;
+	overflow: auto;
+
+
 }
 
 .all-button {
-	background-color: #5D823D;
+	background-color: #5D823D;;
 	width: 54px;
 	height: 33px;
-	margin-left: 1380px;
+	left: 1320px;
+	top: 40px;
 	font-size: 24px;
 	font-family: helvetica;
 	font-weight: bold;
 	color: white;
 	padding-left: 7px;
-	padding-top: 7px;
+	padding-top: 5px;
+	position: fixed;
+	
 }
 
-.save-button {
+
+
+.toggle-button {
+		position:fixed;
+		width: 75px; 
+		height: 31px;
+
+	}
+
+
+
+.toggle {
+	 width: 75px; height: 31px; margin-top: 570px; margin-left:300px; position:fixed;
+}
+
+.floppy {
+	width: 54px;
+	height: 54px;
+
+}
+
+
+.canvas__container {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}
+.canvas__canvas {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.canvas__mirror {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+
+.button {
 	background-color: #5D823D;
-	width:  81px;
-	height: 35px;
-	margin-left: 1350px;
-	font-size: 24px;
-	font-family: helvetica;
-	font-weight: bold;
-	color: white;
-	padding-left: 13px;
-	padding-top: 10px;
-
-
+  width: 71px;
+  height: 33px;
+  top:630px; left:1320px;
+  font-size: 24px;
+  font-family: helvetica;
+  font-weight: bold;
+  color: white;
+  padding-left: 7px;
+  padding-top: 5px;
+  position: fixed;
 }
-.drag-image1 {width: 203px; height: 139px; cursor: move;}
-.drag-image2 {width: 159px; height: 158px; margin-top: 4px; margin-left: 0px;cursor: move;}
-.drag-image3 {width: 202px; height: 100px; margin-top: 0px;cursor: move;}
-.drag-image4 {width: 105px; height:  291px; margin-top: 0px;cursor: move;}
-.drag-image5 {width: 250px; height: 158px;position: absolute;margin-top: 0px;cursor: move;}
+
+
+
+
