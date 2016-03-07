@@ -48,15 +48,15 @@ body
 
 .all-button {
     background-color: green;
-    width: 54px;
+    width: 73px;
     height: 33px;
-    left: 1360px;
-    top: 40px;
+    top: 43px; 
+    left: 10px;
     font-size: 24px;
     font-family: helvetica;
     font-weight: bold;
     color: white;
-    padding-left: 7px;
+    padding-left: 26px;
     padding-top: 5px;
     position: fixed;
     border: 5px solid white; 
@@ -66,8 +66,8 @@ body
     background-color: green;
     width: 73px;
     height: 33px;
-    left: 1220px;
-    top: 40px;
+    left: 1330px;
+    top: 630px;
     font-size: 24px;
     font-family: helvetica;
     font-weight: bold;
@@ -76,20 +76,21 @@ body
     padding-top: 5px;
     position: fixed;
    border: 5px solid white; 
+   z-index: 1;
     
 }
 .refresh-button {
     background-color: green;
-    width: 120px;
-    height: 28px;
+    width: 92px;
+    height: 24px;
     left: 150px;
-    top: 40px;
+    top: 42px;
     font-size: 24px;
     font-family: helvetica;
     font-weight: bold;
     color: white;
     padding-left: 7px;
-    padding-top: 8px;
+    padding-top: 6px;
     padding-bottom: 8px;
     position: fixed;
    border: 5px solid white; 
