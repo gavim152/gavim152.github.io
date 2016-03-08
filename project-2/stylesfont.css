@@ -1,0 +1,39 @@
+a:link {
+    text-decoration: none;
+    color: black;
+    border: green;
+    font-family: Helvetica;
+    font-size: 10px;
+    display: inline-block;
+    border: 3px solid black;
+    padding: 6px;
+
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+   
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+   
+}
+
+.links {
+	display: block;
+
+}
+
+h1 {
+	font-family: Helvetica;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-size: 17px;
+}
