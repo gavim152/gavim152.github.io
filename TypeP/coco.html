@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+   <head>
+   <meta charset="utf-8">
+   <title> Resizable Type</title>
+    <link rel="stylesheet" href= "coco.css"> 
+   <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+   <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+   <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+   
+
+   <style>
+      .ui-widget-header {
+      
+        font-weight: lighter;
+         font-family: helvetica;
+         width: auto;
+
+      }
+      .ui-widget-content {
+        background-color: black;
+          background-image: url("backgroundimg.png");
+          border: 0px solid black;
+         width: 100%;
+         height: 100%;
+        font-family: helvetica; 
+      font-size: 10px;
+}
+a:link {
+    color: #b7b7b7;
+    text-decoration: none;
+    border: 30px;
+    font-size: 20px;
+    line-height:90px;
+}
+
+/* mouse over link */
+
+a:hover {
+
+    cursor: crosshair;
+
+    font-style: italic;
+
+   -webkit-transform: scale(1.1); 
+
+   -moz-transform:    scale(1.1);
+
+   -ms-transform:     scale(1.1); 
+
+   -o-transform:      scale(1.1); 
+
+   text-shadow: 3px 3px 0 #6c00ff; 
+
+}
+
+
+
+
+
+/* selected link */
+
+a:active {
+
+    color: white;
+
+     text-decoration: none;
+
+}
+
+
+
+/* visited link */
+a:visited {
+    color: white;
+     text-decoration: none;
+}
+
+
+ h2 {
+  color: #6c00ff ;
+  font: helvetica;
+  font-weight: bolder;
+  font-size: 15px;
+  letter-spacing: 9px;
+  position: absolute;
+  top: -8px;
+  left: 35px;
+
+ }
+ .resizable4-helper {
+    border: 1px solid blue;
+    background-color: none;
+    opacity: 1;
+}
+.resizable4-ghost {
+     opacity:0 !important; 
+ }
+
+      
+      #container-1 { width: 300px; height: 300px; color: red; }  /* the container of the letters, do not copy this one */
+
+
+      #resizable4 {background-position: top left; /*start of box1*/
+         width: 100px; height: 150px; display: inline-block;position: absolute; top:50px; left: 230px; border: 1px solid #6c00ff; font-family: helvetica;  }  
+      #resizable4, #container { padding: 0.5em;  }  
+      
+
+      #resizable-5 {display: inline-block;position: absolute; top:50px ; left: 340px;; 
+         width: 100px; height: 150px;  border: 1px solid #6c00ff; }   /*start of box2*/
+      #resizable-5, #container {padding: 0.5em; }  
+
+
+
+      #resizable-6 {display: inline-block;position: absolute; top:50px ; left: 740px;; 
+         width: 100px; height: 150px;  border: 1px solid #6c00ff; }  /*start of box3*/
+      #resizable-6, #container {padding: 0.5em; }  
+
+
+   </style>
+   <script>
+      $(function() {
+      $( "#resizable4" ).resizable({
+   autoHide: true,
+
+          animate: true,
+         containment: "#container",
+         minHeight: 70,
+         minWidth: 100
+         });
+      }); /*box1*/
+        
+        $(function() {
+      $( "#resizable-5" ).resizable({
+         containment: "#container",
+        animate: true,
+           autoHide: true,
+
+         minHeight: 70,
+         minWidth: 100
+         });
+      }); /*box2*/
+
+
+        $(function() {
+      $( "#resizable-6" ).resizable({
+         containment: "#container",
+        animate: true,
+           autoHide: true,
+
+         minHeight: 70,
+         minWidth: 100
+         });
+      }); /*box3*/
+   </script>
+</head>
+
+
+<body>
+
+
+   <div id="container" class="ui-widget-content">
+  <div class="sidebar">
+  <div class="wordbar"><h2> WORD BAR<h2></div>
+  <a href="index1.html "><h1>SELF<h1> </a>
+  <a href="index2.html"> <h1>DROP<h1> </a>
+  <a href="index3.html"><h1>THOUGHT<h1></a>
+
+
+
+
+   </div> 
+      
+
+      <div id="resizable4" class="ui-state-active"> 
+
+        <class="ui-widget-header">
+
+
+      <div class="left vertical bar black "></div>
+      <div class="top horizontal bar black "> </div>
+      <div class="right vertical bar black "> </div>
+      <div class="mid horizontal bar black "> </div>
+
+           </div>
+
+      
+
+
+
+      <div id="container" class="ui-widget-content">
+      <div id="resizable-5" class="ui-state-active">
+        <class="ui-widget-header">
+  
+         <div class="left vertical bar black"></div>
+          <div class="top horizontal bar black"> </div>
+          <div class="right vertical bar black"> </div>
+          <div class="mid horizontal bar black"> </div>
+          <div class="b-bottom horizontal bar black"> </div>
+
+       </div>
+  
+         
+      </div>
+   </div> 
+ 
+   <div id="resizable-6" class="ui-state-active">
+
+        <class="ui-widget-header">
+
+
+      <div class="left vertical bar black "></div>
+      <div class="top horizontal bar black "> </div>
+      <div class="right vertical bar black "> </div>
+      <div class="mid horizontal bar black "> </div>
+
+           </div>
+
+         
+</body>
+</html>
