@@ -1,0 +1,23 @@
+#main{
+       position: absolute;
+      margin-top: -80px;
+      margin-left: 130px;
+
+    }
+
+
+
+    .ball {
+        z-index: 1;
+        position: absolute;
+        top: 210px;
+        left: 515px;
+
+    }
+    body{
+        padding:0;
+        margin:0;
+        background-color: white;
+        overflow: hidden;
+
+    }

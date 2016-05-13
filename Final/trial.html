@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Catharsis</title>
+    <link href="bag.css" media="all" rel="stylesheet" />
+    <link rel="shortcut icon" href="" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="bag.js"></script>
+  </head> 
+  <link rel='shortcut icon' href='emoji.png' type='image/x-icon'/ >
+<div class="container">
+<audio id="audio" hidden>
+    <source src="./sound/sound.mp3" type="audio/mpeg">
+</audio>
+
+<div id="menu">
+    <li>
+        <a href="http://www.google.com">Click to play...</a>
+    </li>
+</div>
+
+
+<script> var target;
+
+function checkAudio() {
+    if($("#audio")[0].paused) {
+        window.location.href  = target;
+    } else {
+        setTimeout(checkAudio, 1000);
+    }
+}
+
+$('#menu li a').click(function(e) {
+    e.preventDefault();
+
+    target = $(this).attr('href');
+
+    console.log("Let's play");
+
+    var sound = $("#audio");
+    sound.get(0).play();
+
+    setTimeout(checkAudio, 1000);
+});
+
+</script>

@@ -1,0 +1,13 @@
+.hide {
+	display: none;
+}
+
+.yellow { color: yellow; }
+.blue { color: blue; }
+.red {color: red;}
+
+
+.object {
+	font-size: 20px;
+	margin: 20px;
+}

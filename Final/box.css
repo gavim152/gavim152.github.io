@@ -1,0 +1,590 @@
+.box {
+		font-size: 150px;
+	font-family: helvetica;
+	font-weight: bolder;
+	color: red;
+	text-transform: uppercase;
+	font-style: italic;
+	display: none;
+	position: absolute;
+	left: 100px;
+	top: 0px;
+}
+
+.box1 {
+	font-size: 150px;
+	font-family: helvetica;
+	font-weight: bolder;
+	color: red;
+	font-style: italic;
+	text-transform: uppercase;
+	position: absolute;
+	left: 750px;
+	top: 0px;
+	display: none;
+}
+
+.box2 {
+	font-size: 150px;
+	font-family: helvetica;
+	font-weight: bolder;
+	color: red;
+	font-style: italic;
+	text-transform: uppercase;
+	position: absolute;
+	left: 300px;
+	top: 500px;
+	display: none;
+}
+
+.box3 {
+	font-size: 150px;
+	font-family: helvetica;
+	font-weight: bolder;
+	color: red;
+	font-style: italic;
+	text-transform: uppercase;
+	position: absolute;
+	left: 100px;
+	top: 400px;
+	display: none;
+}
+
+.box4 {
+	font-size: 150px;
+	font-family: helvetica;
+	font-weight: bolder;
+	color: red;
+	font-style: italic;
+	text-transform: uppercase;
+	position: absolute;
+	left: 700px;
+	top: 150px;
+	display: none;
+}
+
+.box5 {
+	font-size: 150px;
+	font-family: helvetica;
+	font-weight: bolder;
+	color: red;
+	font-style: italic;
+	text-transform: uppercase;
+	position: absolute;
+	left: 750px;
+	top: 430px;
+	display: none;
+}
+
+
+
+
+.bag2 {
+	display: none;
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+.bag3 {
+	display: none;
+	position: absolute;
+	left: 600px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+
+
+.bag2.show {
+	display: block;
+	cursor: pointer;
+}
+
+.bag4 {
+	display: none;
+	position: absolute;
+	left: 350px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+.bag4.show {
+	display: block;
+	cursor: pointer;
+}
+
+.bag7 {
+	display: none;
+	position: absolute;
+	left: 650px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+.bag7.show {
+	display: block;
+	cursor: pointer;
+}
+
+.bag9 {
+	display: none;
+	position: absolute;
+	left: 800px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+.bag9.show {
+	display: block;
+	cursor: pointer;
+}
+
+
+.bag11 {
+	display: none;
+	position: absolute;
+	left: 950px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+.bag11.show {
+	display: block;
+	cursor: pointer;
+}
+.bag6 {
+	display: block;
+	position: absolute;
+	left: 500px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+.bag6.hide {
+	display: none;
+	cursor: pointer;
+}
+
+.bag12 {
+	display: block;
+	position: absolute;
+	left: 950px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+.bag12.hide {
+	display: none;
+	cursor: pointer;
+}
+
+.bag8 {
+	display: block;
+	position: absolute;
+	left: 650px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+.bag8.hide {
+	display: none;
+	cursor: pointer;
+}
+
+.bag10 {
+	display: block;
+	position: absolute;
+	left: 800px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+.bag10.hide {
+	display: none;
+	cursor: pointer;
+}
+
+
+
+.punches {
+	 border: 1px solid black;
+  width: 540px
+  height: 300px;
+  padding: 10px;
+	position: absolute;
+  font-family: Helvetica, sans-serif;
+  color: #ff5151;
+  font-size: 60px;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  display: none;
+}
+
+.punches.show {
+	display: block;
+}
+
+
+.punches1 {
+	border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: Helvetica, sans-serif;
+  color: #ff5151;
+  font-size: 60px;
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  display: none;
+}
+
+.punches1.show {
+	display: block;
+}
+
+.punches2 {
+	border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: Helvetica, sans-serif;
+  color: #ff5151;
+  font-size: 60px;
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  left: 80%;
+  top: 20%;
+  display: none;
+}
+
+.punches2.show {
+	display: block;
+}
+
+.punches3 {
+	border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: Helvetica, sans-serif;
+  color: #ff5151;
+  font-size: 60px;
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  display: none;
+}
+
+.punches3.show {
+	display: block;
+}
+
+.punches4 {
+	border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: Helvetica, sans-serif;
+  color: #ff5151;
+  font-size: 60px;
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  display: none;
+}
+
+.punches4.show {
+	display: block;
+}
+
+.punches5 {
+	border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: Helvetica, sans-serif;
+  color: #ff5151;
+  font-size: 60px;
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  display: none;
+}
+
+.punches5.show {
+	display: block;
+}
+
+
+
+
+
+
+.done {
+  font-family: helvetica, sans-serif;
+  width: 50px;
+  height: 20px;
+  padding: 10px;
+  left: 190px;
+  top: 200px;
+  color: transparent;
+  position: absolute;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 150px;
+  cursor: pointer;
+ 
+}
+
+.done2 {
+  font-family: helvetica, sans-serif;
+  width: 50px;
+  height: 20px;
+  padding: 10px;
+  left: 340px;
+  top: 200px;
+  color: transparent;
+  position: absolute;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 150px;
+  cursor: pointer;
+ 
+}
+
+.done3 {
+  font-family: helvetica, sans-serif;
+  width: 50px;
+  height: 20px;
+  padding: 10px;
+  left: 500px;
+  top: 200px;
+  color: transparent;
+  position: absolute;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 150px;
+  cursor: pointer;
+ 
+}
+
+.done4 {
+  font-family: helvetica, sans-serif;
+  width: 50px;
+  height: 20px;
+  padding: 10px;
+  left: 650px;
+  top: 200px;
+  color: transparent;
+  position: absolute;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 150px;
+  cursor: pointer;
+ 
+}
+
+.done5 {
+  font-family: helvetica, sans-serif;
+  width: 50px;
+  height: 20px;
+  padding: 10px;
+  left: 800px;
+  top: 200px;
+  color: transparent;
+  position: absolute;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 150px;
+  cursor: pointer;
+ 
+}
+
+.done6 {
+  font-family: helvetica, sans-serif;
+  width: 50px;
+  height: 20px;
+  padding: 10px;
+  left: 950px;
+  top: 200px;
+  color: transparent;
+  position: absolute;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 150px;
+  cursor: pointer;
+ 
+}
+
+
+.bag1 {
+	display: block;
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+.bag1.hide {
+	display: none;
+	cursor: pointer;
+}
+
+
+.bag3 {
+	display: block;
+	position: absolute;
+	left: 350px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+.bag3.hide {
+	display: none;
+	cursor: pointer;
+}
+
+.bag5 {
+	display: none;
+	position: absolute;
+	left: 500px;
+	top: 200px;
+	cursor: pointer;
+
+}
+
+.bag5.show {
+	display: block;
+	cursor: pointer;
+}
+
+
+
+.finale {
+  font-family: helvetica, sans-serif;
+  border: solid black 1px;
+  width: 50px;
+  height: 20px;
+  padding: 10px;
+  left: 50px;
+  top: 300px;
+  position: absolute;
+  font-weight: bolder;
+  font-style: italic;
+ 
+}
+
+.finale:hover {
+  background-color: red;
+}
+
+.line {
+	width: 900px;
+	height: 2px;
+	background-color: black;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+
+}
+
+.line2 {
+	width: 900px;
+	height: 2px;
+	background-color: black;
+	position: absolute;
+	top: 420px;
+	left: 200px;
+
+}
+
+.emoji {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+
+
+}
+
+.emoji.show {
+  display: block;
+   position: absolute;
+   top: 100px;
+}
+
+.background {
+ 
+    background-color: white;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 2s;
+    display: none;
+    width: 1400px;
+    height: 700px;
+    top: -10px;
+    
+
+}
+
+.background.show{
+  display: block;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color: red;}
+    10%  {background-color: #ff00c0}
+    20%  {background-color: yellow;}
+    30%  {background-color: orange;}
+    40%  {background-color: purple;}
+    50%  {background-color: blue;}
+    60% {background-color: green;}
+    70%   {background-color: red;}
+    80%  {background-color: #ff00c0;}
+    90%  {background-color: yellow;}
+    100%  {background-color: orange;}
+
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    10%  {background-color: #ff00c0;}
+    20%  {background-color: yellow;}
+    30%  {background-color: orange;}
+    40%  {background-color: purple;}
+    50%  {background-color: blue;}
+    60% {background-color: green;}
+    70%   {background-color: red;}
+    80%  {background-color: #ff00c0;}
+    90%  {background-color: yellow;}
+    100%  {background-color: orange;}
+}

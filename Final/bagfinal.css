@@ -1,0 +1,129 @@
+.box {
+	border: 2px solid black;
+	width: 540px
+	height: 300px;
+	padding: 10px;
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+  color: red;
+  font-size: 60px;
+  position: relative;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 220px;
+  top: 200px;
+
+}
+
+.box1 {
+	border: 2px solid black;
+	width: 680px
+	height: 300px;
+	padding: 10px;
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+  color: red;
+  font-size: 60px;
+  position: relative;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 140px;
+  top: 300px;
+
+}
+
+.box2 {
+	border: 2px solid black;
+	width: 780px
+	height: 300px;
+	padding: 10px;
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+  color: red;
+  font-size: 60px;
+  position: relative;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 160px;
+  top: 400px;
+
+}
+
+.box3 {
+	border: 2px solid black;
+	width: 780px
+	height: 300px;
+	padding: 10px;
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+  color: red;
+  font-size: 60px;
+  position: relative;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 300px;
+  top: 500px;
+
+}
+
+body {
+ 
+    background-color: white;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color: red;}
+    10%  {background-color: #ff00c0}
+    20%  {background-color: yellow;}
+    30%  {background-color: orange;}
+    40%  {background-color: purple;}
+    50%  {background-color: blue;}
+    60% {background-color: green;}
+    70%   {background-color: red;}
+    80%  {background-color: #ff00c0;}
+    90%  {background-color: yellow;}
+    100%  {background-color: orange;}
+
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    10%  {background-color: #ff00c0;}
+    20%  {background-color: yellow;}
+    30%  {background-color: orange;}
+    40%  {background-color: purple;}
+    50%  {background-color: blue;}
+    60% {background-color: green;}
+    70%   {background-color: red;}
+    80%  {background-color: #ff00c0;}
+    90%  {background-color: yellow;}
+    100%  {background-color: orange;}
+}
+
+
+
+.hide{
+	display:none;
+	position: absolute;
+	top: 0px;
+	left: 40px;
+
+}
+.show{
+	display:block;
+	position:absolute;
+	color: blue;
+	top: 50px;
+	left: 140px;
+}
+

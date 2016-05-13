@@ -1,0 +1,933 @@
+.justclick {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color: transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left:215px;
+  top: 110px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+a:link { 
+  color: transparent;
+
+
+}
+
+.justclick1 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color:transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 355px;
+  top: 110px;
+  position: absolute;
+  z-index: 1;
+   cursor: pointer;
+}
+
+.justclick2{
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color: transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 500px;
+  top: 110px;
+  position: absolute;
+  z-index: 1;
+}
+
+.justclick3 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color: transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 355px;
+  top: 505px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.justclick4 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color: transparent;
+  font-size:100px;
+  position: relative;
+  font-style: italic;
+  left: 215px;
+  top: 505px;
+  position: absolute;
+  z-index: 1;
+}
+
+.justclick5 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color: transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 505px;
+  top: 505px;
+  position: absolute;
+  z-index: 1;
+}
+
+.justclick6 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color:transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 505px;
+  top: 380px;
+  position: absolute;
+  z-index: 1;
+}
+
+.justclick7 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color: transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 215px;
+  top: 380px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.justclick8 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color: transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 480px;
+  top: 250px;
+  position: absolute;
+  z-index: 1;
+}
+
+.sounds {
+  left: 90px;
+  top: 20px;
+  position: absolute;
+}
+.justclick9 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color: transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 215px;
+  top: 250px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.justclick10 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color: transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 345px;
+  top: 250px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.justclick11 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color:transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 355px;
+  top: 380px;
+  position: absolute;
+  z-index: 1;
+   cursor: pointer;
+}
+
+.justclick12 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color:transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 215px;
+  top: 380px;
+  position: absolute;
+  z-index: 1;
+   cursor: pointer;
+}
+
+
+.justclick13 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color:transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 495px;
+  top: 380px;
+  position: absolute;
+  z-index: 1;
+   cursor: pointer;
+}
+
+.justclick14 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color:transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 755px;
+  top: 380px;
+  position: absolute;
+  z-index: 1;
+   cursor: pointer;
+}
+
+.justclick15 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color:transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 755px;
+  top: 505px;
+  position: absolute;
+  z-index: 1;
+   cursor: pointer;
+}
+
+
+.justclick16 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color:transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 495px;
+  top: 505px;
+  position: absolute;
+  z-index: 1;
+   cursor: pointer;
+}
+
+.justclick17 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color:transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 215px;
+  top: 505px;
+  position: absolute;
+  z-index: 1;
+   cursor: pointer;
+}
+
+
+
+.justclick18 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color:transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 355px;
+  top: 505px;
+  position: absolute;
+  z-index: 1;
+   cursor: pointer;
+}
+
+.justclick19 {
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color: transparent;
+  font-size: 100px;
+  position: relative;
+  font-style: italic;
+  left: 625px;
+  top: 505px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.bubblewrap {
+  position: absolute;
+  top: 110px;
+  left: 300px;
+  display: block;
+
+}
+
+.bubblewrap.hide {
+  display: none;
+}
+#foo {
+  display: none;
+
+ font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-style: italic;
+      font-weight: bolder;
+    cursor: pointer;
+
+
+}
+
+#foo1 {
+  display: none;
+
+ font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+
+#foo2 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo3 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo4 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo5 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo6 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo7 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo8 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo9 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo10 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo11 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo12 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo13 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo14{
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo15 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo16 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo17 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo18 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#foo19 {
+  display: none;
+
+  font-family: helvetica, sans-serif;
+    color: black;
+    font-family: 20px;
+    left: 0px;
+    top: 500px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.box {
+  border: solid black 1px;
+  width: 150px;
+  height: 510px;
+  top: 100px;
+  left: 20px;
+  position: absolute;
+   padding: 20px;
+   display: block
+ 
+}
+.box.hide {
+  display: none;
+}
+
+.box1 {
+   border: solid black 1px;
+  width: 150px;
+  height: 510px;
+  top: 110px;
+  left: 30px;
+  position: absolute;
+  padding: 20px;
+  display: block;
+
+}
+
+.box1.hide {
+  display: none;
+}
+
+.done {
+  font-family: helvetica, sans-serif;
+  border: solid black 1px;
+  width: 50px;
+  height: 20px;
+  padding: 10px;
+  left: 57%;
+  top: 88%;
+  position: absolute;
+  font-weight: bolder;
+  font-style: italic;
+ 
+}
+
+.done:hover {
+  background-color: #5151ff;
+}
+
+
+.final {
+  border: 1px solid black;
+  width: 540px
+  height: 300px;
+  padding: 10px;
+
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  display: none;
+     }
+
+     .final.show{
+      display: block;
+     }
+
+.final1 {
+  border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  display: none;
+     }
+
+     .final1.show{
+      display: block;
+     }
+
+
+
+.final2 {
+  border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  display: none;
+     }
+
+     .final2.show{
+      display: block;
+     }
+.final3 {
+  border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 80%;
+  top: 20%;
+ display: none;
+     }
+
+     .final3.show{
+      display: block;
+     }
+
+
+.final4 {
+  border: 1px solid black;
+  width: 540px
+  height: 300px;
+  padding: 10px;
+
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 20%;
+  top: 40%;
+display: none;
+     }
+
+     .final4.show{
+      display: block;
+     }
+
+.final5 {
+  border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+display: none;
+     }
+
+     .final5.show{
+      display: block;
+     }
+
+.final6 {
+  border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 60%;
+  top: 40%;
+
+display: none;
+     }
+
+     .final6.show{
+      display: block;
+     }
+
+.final7 {
+  border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 80%;
+  top: 40%;
+
+display: none;
+     }
+
+     .final7.show{
+      display: block;
+     }
+
+.final8 {
+  border: 1px solid black;
+  width: 540px
+  height: 300px;
+  padding: 10px;
+
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 20%;
+  top: 60%;
+   
+     
+display: none;
+     }
+
+     .final8.show{
+      display: block;
+     }
+
+.final9 {
+  border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  left: 40%;
+  top: 60%;
+
+     
+display: none;
+     }
+
+     .final9.show{
+      display: block;
+     }
+
+.final10 {
+  border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 60%;
+  top: 60%;
+
+
+     
+display: none;
+     }
+
+     .final10.show{
+      display: block;
+     }
+
+.final11 {
+  border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 80%;
+  top: 60%;
+
+     
+display: none;
+     }
+
+     .final11.show{
+      display: block;
+     }
+
+
+     .gif {
+      display: none;
+     }
+
+     .gif.show {
+      display: block;
+     }
+
+      .gif4 {
+      display: none;
+  
+     }
+
+     .gif4.show {
+      display: block;
+  
+     }
+.emoji {
+  display: none;
+  position: absolute;
+cursor: pointer;
+
+}
+
+.emoji.show {
+  display: block;
+   position: absolute;
+   top: 100px;
+}
+
+.background {
+ 
+    background-color: white;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 2s;
+    display: none;
+    width: 1400px;
+    height: 700px;
+    top: -10px;
+    
+
+}
+
+.background.show{
+  display: block;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color: red;}
+    10%  {background-color: #ff00c0}
+    20%  {background-color: yellow;}
+    30%  {background-color: orange;}
+    40%  {background-color: purple;}
+    50%  {background-color: blue;}
+    60% {background-color: green;}
+    70%   {background-color: red;}
+    80%  {background-color: #ff00c0;}
+    90%  {background-color: yellow;}
+    100%  {background-color: orange;}
+
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    10%  {background-color: #ff00c0;}
+    20%  {background-color: yellow;}
+    30%  {background-color: orange;}
+    40%  {background-color: purple;}
+    50%  {background-color: blue;}
+    60% {background-color: green;}
+    70%   {background-color: red;}
+    80%  {background-color: #ff00c0;}
+    90%  {background-color: yellow;}
+    100%  {background-color: orange;}
+}
+
+
+#changecolor {
+    height: 100px;
+    width: 100px;
+}

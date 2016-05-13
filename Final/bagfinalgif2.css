@@ -1,0 +1,88 @@
+.box {
+	border: 2px solid black;
+	width: 540px
+	height: 300px;
+	padding: 10px;
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  position: relative;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 220px;
+  top: 200px;
+
+}
+
+.box1 {
+	border: 2px solid black;
+	width: 680px
+	height: 300px;
+	padding: 10px;
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  position: relative;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 140px;
+  top: 300px;
+
+}
+
+.box2 {
+	border: 2px solid black;
+	width: 780px
+	height: 300px;
+	padding: 10px;
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  position: relative;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 160px;
+  top: 400px;
+
+}
+
+.box3 {
+	border: 2px solid black;
+	width: 780px
+	height: 300px;
+	padding: 10px;
+	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
+  color: #71a994;
+  font-size: 60px;
+  position: relative;
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 300px;
+  top: 500px;
+
+}
+
+.gif {
+  position: absolute;
+  top: 50px;
+  z-index: -1;
+  width: 400%;
+height: 200%;}
+
+
+
+.gif4 {
+  position: absolute;
+  top: 430px;
+  z-index: -1;
+  width: 400%;
+height: 200%;
+left: 970px;}
