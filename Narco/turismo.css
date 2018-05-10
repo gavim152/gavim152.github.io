@@ -1,0 +1,104 @@
+body {
+   background-image: url("medellin.png");
+}
+
+
+
+
+.iphone {
+	position: absolute;
+	left: 30%;
+	top: 5%;
+}
+
+.index {
+	font-family: helvetica;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: black;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	text-transform: lowercase;
+
+}
+
+.demo {
+	font-family: helvetica;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: black;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	text-transform: lowercase;
+
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: line-through;
+	color: red;
+}
+
+a:visited {
+	color: white;
+}
+
+.hello {
+	position: absolute;
+
+	left: 15%;
+	top: 8%;
+	padding-left: 20px;
+	
+	
+}
+
+.hello2 {
+	position: absolute;
+	top: 320px;
+	left: 18%;
+	
+	
+}
+
+.hello3 {
+	position: absolute;
+	top: 620px;
+	left: 18%;
+	
+	
+}
+
+.hello4 {
+	position: absolute;
+	top: 920px;
+	left: 18%;
+	
+	
+}
+
+.hello5 {
+	position: absolute;
+	top: 1220px;
+	left: 18%;
+	
+	
+}
+
+
+.footer {
+	top: 88%;
+	position: absolute;
+	left: 95.5%
+}
+
+.title {
+	position: absolute;
+	left: 15%;
+}
