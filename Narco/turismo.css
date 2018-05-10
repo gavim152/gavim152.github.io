@@ -35,6 +35,20 @@ body {
 
 }
 
+.demo1 {
+	font-family: helvetica;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: black;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	text-transform: lowercase;
+	top: 92%;
+	position: absolute;
+
+}
+
 a:link {
 	text-decoration: none;
 	color: white;
@@ -101,4 +115,34 @@ a:visited {
 .title {
 	position: absolute;
 	left: 15%;
+}
+
+div.background {
+width: 250px;
+height: 350px;
+  border: 2px solid yellow;
+  position: absolute;
+  left: 40%;
+}
+
+div.transbox {
+  margin: 20px;
+  background-color: #ffffff;
+  font-family: helvetica;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: black;
+  width: 210px;
+height: 300px;
+  border: 1px solid yellow;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  overflow: scroll;
+}
+
+div.transbox p {
+padding: 5px;
+margin: 10px;
+  font-weight: bold;
+  color: red;
 }
