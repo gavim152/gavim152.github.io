@@ -1,0 +1,30 @@
+.link1 {
+	position: absolute;
+	left: 30px;
+	top: 300px;
+	  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+.link2 img {
+	position: absolute;
+	left: 500px;
+	top: 200px;
+	  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+.hello {
+	position: absolute;
+	left: 20%;
+}
+
+.link1:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.link2:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
